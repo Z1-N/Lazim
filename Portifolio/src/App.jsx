@@ -1,14 +1,14 @@
 
 import AboutUs from './Components/About'
 import Background from './Components/Background'
-import ContactUs from './Components/Contactus'
+import ContactUs from './Components/ContactUs'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Projects from './Components/Projects'
 import Services from './Components/Services'
 import OurTech from './Components/OurTech';
-import Testimonials from './Components/Testmonials'
+import Testimonials from './Components/Testimonials'
 
 function App() {
   
