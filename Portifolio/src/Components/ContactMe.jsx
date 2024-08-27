@@ -8,7 +8,7 @@ const validationSchema = Yup.object({
   email: Yup.string().email('Invalid email address').required('Email is required'),
   message: Yup.string().required('Message is required'),
 });
-const ContactUs = () => {
+const ContactMe = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -92,4 +92,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactMe;

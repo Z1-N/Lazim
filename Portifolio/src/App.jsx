@@ -1,7 +1,7 @@
 
 import AboutUs from './Components/About'
 import AboAli from './Components/AboAli'
-import ContactUs from './Components/ContactUs'
+import ContactMe from './Components/ContactMe'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
@@ -24,7 +24,7 @@ function App() {
       <Projects className = "py-20"/>
       <OurTech className = "py-20"/>
       <Testimonials className = "py-20"/>
-      <ContactUs className = "pb-20"/>
+      <ContactMe className = "pb-20"/>
       <Footer />
     </div>
 
