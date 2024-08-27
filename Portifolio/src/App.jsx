@@ -1,6 +1,6 @@
 
 import AboutUs from './Components/About'
-import BackGround from './Components/BackGround'
+import AboAli from './Components/AboAli'
 import ContactUs from './Components/ContactUs'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className='relative z-10'>
-    <BackGround />
+    <AboAli />
     <div className='relative z-20'>
       <Navbar  />
       <Hero/>

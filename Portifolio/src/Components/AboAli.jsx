@@ -1,4 +1,4 @@
-const BackGround = () => {
+const AboAli = () => {
   return (
     <div className="fixed inset-0 z-0">
       <div className="absolute  inset-0 bg-gradient-to-r from-blue-200 via-purple-300 to-pink-200"></div>
@@ -7,4 +7,4 @@ const BackGround = () => {
   );
 };
 
-export default BackGround;
+export default AboAli;
