@@ -2,11 +2,11 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-gray-800 font-secondary text-white py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">Company</h3>
+            <h3 className="text-lg font-semibold mb-4">Lazim Visuals<img className="inline ml-2 h-6 w-6" src="./vite.svg"></img></h3> 
             <p className="text-gray-400">
               We provide the best solutions to help you grow your business.
             </p>
@@ -18,13 +18,13 @@ const Footer = () => {
                 <a href="#" className="text-gray-400 hover:text-white">Home</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">About</a>
+                <a href="#about" className="text-gray-400 hover:text-white">About</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">Services</a>
+                <a href="#services" className="text-gray-400 hover:text-white">Services</a>
               </li>
               <li className="mb-2">
-                <a href="#" className="text-gray-400 hover:text-white">Contact</a>
+                <a href="#contact" className="text-gray-400 hover:text-white">Contact</a>
               </li>
             </ul>
           </div>
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 border-t border-gray-700 pt-8 text-center">
-          <p className="text-gray-400">&copy; 2023 Your Company. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2023 Lazim visuals. All rights reserved.</p>
         </div>
       </div>
     </footer>

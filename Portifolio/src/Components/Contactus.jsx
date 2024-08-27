@@ -15,17 +15,17 @@ const ContactUs = () => {
   return (
     <motion.section
       ref={ref}
-      className="py-12 bg-gray-100"
+      className="py-12 bg-transparent"
       initial={{ opacity: 0 }}
       animate={isInView ? { opacity: 1 } : {}}
       transition={{ duration: 1 }}
     >
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-10">
-          <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+      <div id='contact' className="max-w-4xl mx-auto p-8 rounded-lg bg-white/30 backdrop-filter  backdrop-blur-lg shadow-md border-gray-100  sm:px-6 lg:px-8">
+        <div className="text-center mb-7">
+          <h2 className="text-base font-secondary text-indigo-600 font-semibold tracking-wide uppercase">
             Let&rsquo;s Get In Touch
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 font-heading text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             We&rsquo;d love to hear from you
           </p>
         </div>
@@ -40,7 +40,7 @@ const ContactUs = () => {
           }}
         >
           {({ isSubmitting }) => (
-            <Form className="bg-white rounded-lg shadow-lg p-8 space-y-6">
+            <Form className="bg-white rounded-lg font-secondary shadow-lg p-8 space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                   Name

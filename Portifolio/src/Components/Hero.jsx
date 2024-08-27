@@ -9,21 +9,21 @@ const Hero = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="flex-1 mb-8 md:mb-0">
-        <h1 className="md:text-5xl text-3xl font-bold mb-4">
-          <Typical
-            steps={['Welcome to Our Website', 2000, 'We Create Amazing Experiences', 2000]}
+      <div id='home' className="flex-1 mb-8 md:mb-0">
+        <h1 className="md:text-5xl text-4xl font-heading font-bold mb-4">
+          Hi there, I&rsquo;m <span className="text-indigo-600">Mohammed Abdelrauf</span>👋
+        </h1>
+        <p className="md:text-xl font-secondary text-lg">
+        <Typical
+            steps={['I am an enthusiastic Content editor with a strong passion 🎥 ', 2000, 'Here to Create Amazing Experiences', 2000 ]}
             loop={Infinity}
             wrapper="span"
           />
-        </h1>
-        <p className="md:text-xl text-lg">
-          We provide the best solutions to help you grow your business.
         </p>
       </div>
       <div className="flex-1">
         <img
-          src="https://via.placeholder.com/400"
+          src="https://cdn.dribbble.com/userupload/8427886/file/original-71336542737b0362088db9b6ec548beb.png?resize=1024x768"
           alt="Hero"
           className="rounded-lg shadow-lg"
         />

@@ -1,27 +1,34 @@
 
 import AboutUs from './Components/About'
-import Background from './Components/BackGround'
+import Background from './Components/Background'
 import ContactUs from './Components/Contactus'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
 import Projects from './Components/Projects'
 import Services from './Components/Services'
+import OurTech from './Components/OurTech';
+import Testimonials from './Components/Testmonials'
 
 function App() {
   
 
   return (
-    <>
-    <Background/>
+    <div className='relative z-10'>
+    <Background />
+    <div className='relative z-20'>
       <Navbar  />
       <Hero/>
       <AboutUs className = "py-20"/>
-      <Projects className = "py-20"/>
       <Services className = "py-20"/>
-      <ContactUs className = "pt-10"/>
-      <Footer/>
-    </>
+      <Projects className = "py-20"/>
+      <OurTech className = "py-20"/>
+      <Testimonials className = "py-20"/>
+      <ContactUs className = "pb-20"/>
+      <Footer />
+    </div>
+
+    </div>
   )
 }
 
