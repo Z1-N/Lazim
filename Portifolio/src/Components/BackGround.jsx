@@ -1,10 +1,7 @@
 const Background = () => {
   return (
     <div className="fixed inset-0 z-0">
-      {/* Gradient Background */}
       <div className="absolute  inset-0 bg-gradient-to-r from-blue-200 via-purple-300 to-pink-200"></div>
-      
-      {/* Pattern Overlay */}
       <div className="absolute  inset-0 bg-pattern opacity-20 mix-blend-overlay"></div>
     </div>
   );

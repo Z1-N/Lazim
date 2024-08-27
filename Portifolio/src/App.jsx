@@ -1,6 +1,6 @@
 
 import AboutUs from './Components/About'
-import Background from './Components/Background'
+import Background from './Components/BackGround'
 import ContactUs from './Components/ContactUs'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
