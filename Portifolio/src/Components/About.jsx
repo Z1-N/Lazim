@@ -26,7 +26,7 @@ const AboutUs = () => {
             transition={{ duration: 0.8 }}
           >
             <p className="font-secondary  font-medium md:text-xl text-base first-letter:text-5xl first-letter:text-indigo-600">
-            Our team of experts is passionately dedicated to delivering innovative and tailored solutions that meet your unique needs. Specializing in video editing and content creation, we harness the latest technologies to bring your vision to life. We believe in the power of collaboration, working closely with you to craft compelling narratives and visually stunning content that resonates with your audience. Our mission is to empower businesses to achieve their goals through cutting-edge technology, creativity, and exceptional service. With a focus on building long-lasting relationships, we are committed to helping you stand out in a crowded digital landscape, turning your ideas into impactful stories that drive results.
+            Our team specializes in video editing and content creation, using the latest technologies to bring your vision to life. We believe in collaboration and work closely with businesses to craft compelling narratives and visually stunning content. Our mission is to empower businesses with cutting-edge technology, creativity, and exceptional service, helping them stand out in the digital landscape.
             </p>
           </motion.div>
           <motion.div

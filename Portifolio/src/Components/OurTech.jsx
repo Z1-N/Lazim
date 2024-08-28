@@ -1,18 +1,17 @@
 // Desc: This is the OurTech component. It is used to display the editing software we use.
 
-import photoshop from '../assets/photoshop.png';
 import premiere from '../assets/premiere.png';
 
 const software = [
   {
-    name: 'Adobe Photoshop',
-    description: 'Professional photo editing and graphic design software.',
-    icon: <img className='w-16 h-16' src={premiere} alt="Premiere icons"></img>,
+    name: 'AI image generation tools',
+    description: 'AI-powered tools for generating images, videos, using chatGPT DALL-E , MidJourney and more. ',
+    icon: <img className='w-16 h-16' src='https://cdn-icons-png.flaticon.com/512/5278/5278402.png' alt="adobe photoshop icons"></img>,
   },
   {
     name: 'Adobe Premiere',
     description: 'Industry-leading video editing software for film, TV, and the web.',
-    icon: <img className='w-16 h-16' src={photoshop} alt="adobe photoshop icons"></img>,
+    icon: <img className='w-16 h-16' src={premiere} alt="Premiere icons"></img>,
   },
   {
     name: 'CapCut',
